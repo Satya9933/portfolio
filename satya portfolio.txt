@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Satya Somisetti Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a13b018dba.js" crossorigin="anonymous"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #fef9f6;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      font-size: 2.5em;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #1f1f1f;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .bar {
+      background: #ddd;
+      border-radius: 20px;
+      margin-bottom: 15px;
+      overflow: hidden;
+    }
+    .bar span {
+      display: block;
+      height: 20px;
+      background: #6a11cb;
+      text-align: right;
+      padding-right: 10px;
+      color: white;
+    }
+    .project-card {
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    footer {
+      background: #1f1f1f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .contact-icons a {
+      color: white;
+      margin: 0 10px;
+      font-size: 1.5em;
+      text-decoration: none;
+    }
+    .about-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      align-items: center;
+    }
+    .about-container img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+    .about-text {
+      flex: 1;
+      min-width: 250px;
+    }
+    .education-boxes {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .edu-box {
+      background-color: #ffffff;
+      border-left: 5px solid #2575fc;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .resume-button {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .resume-button a {
+      background-color: #2575fc;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .resume-button a:hover {
+      background-color: #6a11cb;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Satya Somisetti</h1>
+    <p>B.Tech in AIML @ BVC Engineering College</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="satya.jpg" alt="Satya Somisetti">
+      <div class="about-text">
+        <p>I am currently pursuing B.Tech in Artificial Intelligence & Machine Learning at BVC Engineering College. I am highly interested in software development, coding, and learning new technologies.</p>
+      </div>
+    </div>
+    <div class="resume-button">
+      <a href="Satya_Somisetti_Resume.pdf" download>Download My Resume</a>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="education-boxes">
+      <div class="edu-box">
+        <h3>B.Tech (AIML)</h3>
+        <p>BVC Engineering College<br><strong>Status:</strong> Pursuing</p>
+      </div>
+      <div class="edu-box">
+        <h3>Intermediate</h3>
+        <p>GBR Jr College, Anaparthi<br><strong>Percentage:</strong> 89%</p>
+      </div>
+      <div class="edu-box">
+        <h3>Schooling</h3>
+        <p>ZPP High School, G.Donthamuru<br><strong>Percentage:</strong> 97%</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="bar"><span style="width: 90%">Java - 90%</span></div>
+    <div class="bar"><span style="width: 85%">Python - 85%</span></div>
+    <div class="bar"><span style="width: 70%">HTML/CSS - 70%</span></div>
+    <div class="bar"><span style="width: 60%">C - 60%</span></div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Calculator (HTML + CSS)</h3>
+      <p>A stylish calculator built using HTML and CSS that performs basic arithmetic operations. Designed with a modern UI for better usability and appearance.</p>
+      <a href="calculator.html" target="_blank">Open Calculator</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p><strong>Phone:</strong> 8919260158</p>
+    <p><strong>Email:</strong> satyasomisetti111@gmail.com</p>
+    <div class="contact-icons">
+      <a href="https://www.linkedin.com/in/satya-somisetti-3967a427a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Satya9933" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/satya.somisetti" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Satya Somisetti. All rights reserved.</p>
+  </footer>
+</body>
+</html>
